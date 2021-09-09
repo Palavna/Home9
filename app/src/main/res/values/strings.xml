@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Home9</string>
+    <string name="pr">Приветствую</string>
+    <string name="dal">Далее</string>
+    <string name="back">Назад</string>
+    <string name="skip">Пропустить</string>
+    <string name="End">Завершить</string>
+</resources>

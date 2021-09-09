@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/consPar"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/textBoard"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="56dp"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:text="Welcome to Hermes"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+        android:id="@+id/imgBoard"
+        android:layout_width="260dp"
+        android:layout_height="260dp"
+        android:src="@drawable/ic_baseline_question_answer_24"
+        app:layout_constraintTop_toBottomOf="@id/textBoard"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="88dp"/>
+
+    <TextView
+        android:id="@+id/textLayout"
+        app:layout_constraintTop_toBottomOf="@id/imgBoard"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="98dp"
+        android:layout_marginStart="18dp"
+        android:textColor="@color/white"
+        android:layout_marginEnd="18dp"
+        android:textSize="16sp"
+        android:text="Welcome to Hermes"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
